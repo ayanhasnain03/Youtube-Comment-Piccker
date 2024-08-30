@@ -45,7 +45,7 @@ const App: React.FC = () => {
 
     try {
       do {
-        const { data } = await axios.get(
+        const { data }: any = await axios.get(
           "https://www.googleapis.com/youtube/v3/commentThreads",
           {
             params: {
